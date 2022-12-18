@@ -1,0 +1,23 @@
+For local machine
+git config --global user.name
+git global --global.user email
+ next
+gite init
+then  
+git remote add origin +the link from the github
+git remote -v check redy to push or not
+last
+git push origin main
+
+For Remote machine
+ git config --global user.name
+git global --global.user email
+ next
+gite init
+ 
+git status
+git add
+git commit -m ""
+git pull
+git push 
+git push origin main
