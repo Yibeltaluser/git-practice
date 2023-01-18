@@ -1,10 +1,7 @@
-package craft.employee.Data;
+package craft.employee.data;
 
 public class employee {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		String firstName;
 		firstName = "Abebe";
 		String lastName = "Miki";
@@ -17,7 +14,17 @@ public class employee {
 //		System.out.println(firstName);
 //		System.out.println(lastName);
 //		System.out.println(age);
-//		System.out.print
+//		System.out.println(salary);
+//		System.out.println(bonus);
+		
+		System.out.println("First Name :" + firstName);
+		System.out.println("Last Name :" + lastName);
+		System.out.println("Age :" + age);
+		System.out.println("Salary :" + salary);
+		System.out.println("Bonus :" + bonus);
+		System.out.println("Total Salary :" + totSalary);
+
+		
 	}
 
 }

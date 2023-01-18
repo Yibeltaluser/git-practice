@@ -1,12 +1,10 @@
-package craft.employee.Data;
+package craft.employee.data;
 
 import java.util.Scanner;
 
 public class employee1 {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-Scanner in = new Scanner(System.in);
+ Scanner in = new Scanner(System.in);
 		
 		System.out.println("Enter your firstName: ");
 		String firstName = in.next();
@@ -31,8 +29,11 @@ Scanner in = new Scanner(System.in);
 		System.out.println("Student Salary: " + salary);
 		System.out.println("Student Bonus: " + bonus);
 		System.out.println("Student Total salary: " + totalSalary);
+	
 
-
+		
+		
 	}
+	
 
 }
