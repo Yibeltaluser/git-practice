@@ -1,13 +1,17 @@
-package craft.employee.data;
+package craft.employee.Data;
+
+import java.util.Scanner;
 
 public class employee {
 	public static void main(String[] args) {
-		String firstName;
-		firstName = "Abebe";
+		
+		Scanner in = new Scanner(System.in);
+		
+		String firstName = "Abebe";
 		String lastName = "Miki";
 		int age = 29;
 		double salary = 200.49;
-		double bonus =100;
+		double bonus = 100;
 		
 		double totSalary = (salary + bonus);
 		

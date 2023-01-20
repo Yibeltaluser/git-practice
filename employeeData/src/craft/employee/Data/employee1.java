@@ -1,10 +1,11 @@
-package craft.employee.data;
+package craft.employee.Data;
 
 import java.util.Scanner;
 
 public class employee1 {
 	public static void main(String[] args) {
- Scanner in = new Scanner(System.in);
+ 
+		Scanner in = new Scanner(System.in);
 		
 		System.out.println("Enter your firstName: ");
 		String firstName = in.next();
